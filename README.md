@@ -54,18 +54,17 @@ The model consists of a sequence of convolutional layers, each of which uses a s
 The network applies a ReLU activation function to the output feature maps, optionally followed by maxpooling with a fliter size and stride of 2. 
 
 ### Loss Function
-Binary is used as loss function to calculate the error.
+Binary Cross Entropy is used as loss function to calculate the error.
 
 ### Optimizer
 Adam is used to find the global minima in this architecture.
 
 ### Weight Initialization
-All network weights are initialized in the convolutional layers from a normal distribution with zero-mean and a standard deviation of 10^{−2}. Biases were also initialized from a normal distribution, but with mean 0.5 and standard deviation 10^{−2}.
+All network weights are initialized in the convolutional layers from a normal distribution with zero-mean and a standard deviation of $10^{−2}$. Biases were also initialized from a normal distribution, but with mean 0.5 and standard deviation $10^{−2}$.
 
   
 
 ### References
 
-- [Gradient-based learning applied to document recognition](https://ieeexplore.ieee.org/document/726791)
-- [LeNet-5: Summary and Implementation](https://hackmd.io/@machine-learning/S1WvJyqmI)
-- [LeNet-5 TensorFlow 2.0](https://colab.research.google.com/github/maticvl/dataHacker/blob/master/CNN/LeNet_5_TensorFlow_2_0_datahacker.ipynb)
+- [Siamese-Neural-Networks-for-One-shot-Image-Recognition](https://github.com/nevoit/Siamese-Neural-Networks-for-One-shot-Image-Recognition)
+- [Siamese neural networks for one-shot image recognition](https://paperswithcode.com/paper/siamese-neural-networks-for-one-shot-image)
