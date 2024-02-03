@@ -3,7 +3,7 @@ tensorflow implementation of (Koch et al. 2015)
 <br>
 
 <p align="center">
-  <img src="assets/a.png" alt="Siamese Neural Network Architecture">
+  <img src="assets/image-7-1024x273.png" alt="Siamese Neural Network Architecture">
 </p>
 
 
@@ -54,7 +54,7 @@ The model consists of a sequence of convolutional layers, each of which uses a s
 The network applies a ReLU activation function to the output feature maps, optionally followed by maxpooling with a fliter size and stride of 2. 
 
 ### Loss Function
-Binary Cross Entropy is used as loss function to calculate the error.
+Binary cross entropy is used as loss function to calculate the error.
 
 ### Optimizer
 Adam is used to find the global minima in this architecture.
