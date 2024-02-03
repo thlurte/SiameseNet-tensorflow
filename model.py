@@ -287,11 +287,9 @@ class SiameseNet():
 
     self.train_data_1, self.train_labels_1 = convert_dataset_to_numpy(x_train_1)
     self.val_data_1, self.val_labels_1 = convert_dataset_to_numpy(x_val_1)
-    print(self.train_data_0.shape,self.train_data_1.shape)
 
     self.train_labels=[self.train_labels_0, self.train_labels_1]
     self.val_labels=[self.val_labels_0, self.val_labels_1]
-    print(self.train_labels_0.shape,self.train_labels_1.shape)
 
 
   def fit(self,early_stopping,patience):
